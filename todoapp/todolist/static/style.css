@@ -1,0 +1,65 @@
+html {
+    font-size: 100%;
+ }
+ /* body {
+    background: #b1f6cb;
+    font-family: 'Open Sans',sans-serif;
+ } */
+ /* super basic grid structure */
+ .container {
+    width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px 0;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.2);
+            box-shadow: 0 0 2px rgba(0,0,0,0.2);
+ }
+ /* logo */
+ h1 {
+    font-family: 'Rokkitt', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+ }
+
+ .todoSubtitle {
+    display: none;
+  }
+
+ .todoItem {
+    text-align: center;
+  }  
+
+  #inputs {
+      text-align: center;
+  }
+
+  .horizontal-center {
+      justify-content: center;
+  }
+
+  .centered-row {
+     justify-content: center;
+  }
+
+  .col {
+     margin-top: 15px;
+  }
+
+  .text-center {
+     margin-bottom: 35px;
+  }
+
+  #category {
+     margin-left: 100px;
+  }
+
+  #adding-todo {
+     margin-right: 40px;
+  }
+
+  
+
+
+  
