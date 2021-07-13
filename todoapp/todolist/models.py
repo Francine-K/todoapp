@@ -18,7 +18,7 @@ class Todo(models.Model): # Todo Class that inherits models.Model
    due_date = models.DateField(default=timezone.now().strftime("%Y-%m-%d")) # a date
    category = models.ForeignKey(Category, on_delete=models.CASCADE, default="general")
    dueness = models.IntegerField(default=0) 
-   status = models.TextField(blank=True, default="Not Started")
+   status = models.TextField(default="Not Started")
    
    class Meta:
        ordering = ["-created"] #ordering by the created field

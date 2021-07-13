@@ -22,8 +22,7 @@ def index(request): #the index view
             todo_date = str(request.POST["date"]) #date
             category = request.POST["category_select"] #category
             content = title + " -- " + todo_date + " " + category #content
-            # status = request.POST["update_status"] #do we need this????
-            current_todo = Todo(title=title, content=content, due_date=todo_date, status=status, category=Category.objects.get(name=category))
+            current_todo = Todo(title=title, content=content, due_date=todo_date, category=Category.objects.get(name=category))
             current_todo.save() #saving the todo
             return redirect("/") #reloading the page
 
